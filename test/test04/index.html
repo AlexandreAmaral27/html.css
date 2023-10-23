@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: crimson;
+            margin: auto;
+            width: 600px;
+        }
+        header{
+            background-color: white;
+            padding: 10px; 
+            margin: 10px;
+
+        }
+        #titulo{
+            background-color: rgb(182, 9, 43);
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+        nav{
+            background-color: rgb(182, 9, 43);
+            padding: 5px;
+        }
+        nav>a{
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+            margin: 10px;
+
+        }
+        nav>a:hover{
+            color: blue;
+            text-decoration: underline;
+
+        }
+        nav>a:active{
+            color: green;
+        }
+        nav>a::after{
+            content: '<';
+        }
+        nav>a::before{
+            content: '>';
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+           
+        }
+        article{
+            background-color: rgb(182, 9, 43);
+            padding: 10px;
+
+        }
+        article>aside{
+            background-color: rgba(147, 8, 36, 0.9);
+            font-size: 1.1em;
+
+        }
+        footer{
+            background-color: rgba(140, 5, 32, 0.829);
+            padding: 1px;
+            text-align: center;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <p>Teoria do Amaral</p>
+
+        </section>
+        <section>
+            <article>
+                <h2>O mundo de hoje perante os humanos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut autem at voluptas ea. Earum perspiciatis enim ullam sint minus modi, velit expedita eos in est facere reiciendis debitis. At, sunt.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, maiores delectus. Aperiam tenetur sint neque! Vel temporibus praesentium nobis vitae ipsa nam ea tenetur non amet officiis, consectetur nulla provident?
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem maiores excepturi hic, veniam numquam impedit quidem? Delectus, consequatur commodi ducimus ipsa consequuntur repudiandae recusandae vitae eveniet quisquam totam tempore mollitia.
+                </p>
+                <aside>teste de um site</aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>autor alexandre amaral</p>
+
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+           color: rgb(255, 12, 12);
+            text-decoration: none;
+            font-weight: bolder;
+           
+        }
+       
+        a:hover{
+            color: green;
+            text-decoration: underline;
+        }
+        a:active{
+            color: blue;
+
+        }
+        a::after{
+            content: ' [link]';
+            color: black;
+            text-decoration: none;
+            font-weight: normal;
+        }
+        a::before{
+            content: '>';
+        }
+        a::after{
+            content: '<';
+        }
+        .especial{
+            background-color: black;
+        }
+        h1{
+            height: 300px;
+            width: 300px;
+            background-color: darkgoldenrod;
+            padding: 10px;
+            border: 200px;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>personalizando links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/results?search_query=back+in+blood" target="_blank" class="especial" >black in blood</a></li>
+        <li><a href="https://meuanime.io/video/14506/online" target="_blank">black clover</a></li>
+        <li><a href="https://meuanime.io/?s=Mushoku+Tensei" target="_blank">Mushoku Tensei</a></li>
+    </ul>
+    
+</body>
+</html>
