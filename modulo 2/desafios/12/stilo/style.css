@@ -1,4 +1,15 @@
 @charset "utf8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Sriracha&display=swap');
+
+  :root{
+    --font01:Verdana, Geneva, Tahoma, sans-serif;
+    --font02:'Passion One', sans-serif;
+    --font03: 'Sriracha','cursive';
+    --font04: 'Raleway', sans-serif;
+   
+  }
 *{
     margin: 0px;
     padding: 0px;
@@ -6,15 +17,20 @@
 html,body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--font01);
+  
 }
 header{
     color: white;
     background-color: black;
     text-align: center; 
+    
 }
 header>h1{
     font-variant: small-caps;
     padding-top: 50px;
+    font-family: var(--font02);
+    font-size: 6.5vw;
 }
 header>p{
     padding-bottom: 50px;
@@ -32,6 +48,8 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font03);
+    font-size: 2.1vw;
 }
 section.normal{
     background-color: white;
@@ -43,7 +61,8 @@ section.imagem{
     color: white;
 }
 section.imagem>p{
-    width: 400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
 }
 footer{
