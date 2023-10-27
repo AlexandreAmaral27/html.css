@@ -37,10 +37,13 @@ section{
     line-height: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    background-attachment: fixed;
 
 }
 section>p{
     padding-bottom: 2em;
+    
+   
    
 
 }
@@ -49,11 +52,20 @@ section.normal{
 
 }
 section.imagem{
+    background-position: center;
+    color: white;
+    background-size: cover;
+}
+section.imagem>p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.226);
     
 
 }
 #img01{
     background-image: url(../imagens/background001.jpg);
+    
 }
 #img02{
     background-image: url(../imagens/background002.jpg);
