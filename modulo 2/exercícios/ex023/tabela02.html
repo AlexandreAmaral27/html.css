@@ -11,9 +11,23 @@
            
     
         }
+        caption{
+            font-size: 2em;
+            font-weight: bolder;
+            background-color: gray;
+            border-radius:10px 10px  0px 0px ;
+            margin: -2px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
         th,td{
             border: 1px solid black;
+           
 
+        }
+        thead,tfoot{
+            background-color: rgba(0, 0, 0, 0.817);
+            color: white;
         }
         .especial:hover{
             color: blue;
@@ -23,11 +37,12 @@
 </head>
 <body>
     <table>
+        <caption>Tabela Escolar</caption>
         <thead>
             <tr>
-                <th>Nome</th>
-                <th>Classe</th>
-                <th>Sala</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Classe</th>
+                <th scope="col">Sala</th>
             </tr>
         </thead>
         <tbody>
@@ -38,59 +53,59 @@
               
             </tr>
             <tr>
-                <td>Eunice</td>
+                <td class="especial">Eunice</td>
                 <td>10</td>
                 <td>01</td>
             </tr>
             <tr>
-                <td>Osvaldo</td>
+                <td class="especial">Osvaldo</td>
                 <td>11</td>
                 <td>09</td>
             </tr>
             <tr>
-                <td>Juelson</td>
+                <td class="especial">Juelson</td>
                 <td>13</td>
                 <td>10</td>
             </tr>
             <tr>
-                <td>Pedro</td>
+                <td class="especial">Pedro</td>
                 <td>09</td>
                 <td>07</td>
             </tr>
             <tr>
-                <td>Maria</td>
+                <td class="especial">Maria</td>
                 <td>10</td>
                 <td>22</td>
             </tr>
             <tr>
-                <td>Teresa</td>
+                <td class="especial">Teresa</td>
                 <td>13</td>
                 <td>07</td>
             </tr>
             <tr>
-                <td>Paulo</td>
+                <td class="especial">Paulo</td>
                 <td>10</td>
                 <td>22</td>
             </tr>
             <tr>
-                <td>Ricardo</td>
+                <td class="especial">Ricardo</td>
                 <td>12</td>
                 <td>08</td>
             </tr>
             <tr>
-                <td>Fernando</td>
+                <td class="especial">Fernando</td>
                 <td>10</td>
                 <td>22</td>
             </tr>
             <tr>
-                <td>Mercia</td>
+                <td class="especial">Mercia</td>
                 <td>12</td>
                 <td>07</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>total de classe/sala</th>
+                <th scope="row">total de classe/sala</th>
                 <td>20</td>
                 <td>16</td>
             </tr>
