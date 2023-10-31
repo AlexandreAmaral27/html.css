@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 500px;
+            position: relative;
+          
+           
+    
+        }
+        caption{
+            font-size: 2em;
+            font-weight: bolder;
+            background-color: gray;
+            border-radius:10px 10px  0px 0px ;
+            margin: -2px;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+        th,td{
+            border: 1px solid black;
+           
+
+        }
+        tbody>tr:nth-child(even){
+            background-color: darkslateblue;
+        }
+        tbody>tr:nth-child(odd){
+            background-color: blueviolet;
+        }
+        thead,tfoot{
+            background-color: rgba(0, 0, 0, 0.817);
+            color: white;
+           
+        }
+        thead{
+            position: sticky;
+            top: -1px;
+            background-color: rgba(0, 0, 0, 0.817);
+        }
+        .especial:hover{
+            color: blue;
+            background-image: linear-gradient(to Right, orange,red);
+        }
+        .b1{
+            background-color:pink;
+
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="b1" span="3">
+            <col class="b2">
+            <col>
+        </colgroup>
+        <caption>Tabela Escolar</caption>
+      
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Classe</th>
+                <th scope="col">Sala</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="especial">ALEX</td>
+                <td>12</td>
+                <td>03</td>
+              
+            </tr>
+            <tr>
+                <td class="especial">Eunice</td>
+                <td>10</td>
+                <td>01</td>
+            </tr>
+            <tr>
+                <td class="especial">Osvaldo</td>
+                <td>11</td>
+                <td>09</td>
+            </tr>
+            <tr>
+                <td class="especial">Juelson</td>
+                <td>13</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td class="especial">Pedro</td>
+                <td>09</td>
+                <td>07</td>
+            </tr>
+            <tr>
+                <td class="especial">Maria</td>
+                <td>10</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td class="especial">Teresa</td>
+                <td>13</td>
+                <td>07</td>
+            </tr>
+            <tr>
+                <td class="especial">Paulo</td>
+                <td>10</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td class="especial">Ricardo</td>
+                <td>12</td>
+                <td>08</td>
+            </tr>
+            <tr>
+                <td class="especial">Fernando</td>
+                <td>10</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td class="especial">Mercia</td>
+                <td>12</td>
+                <td>07</td>
+            </tr>
+        </tbody>
+
+    </table>
+    
+</body>
+</html>
