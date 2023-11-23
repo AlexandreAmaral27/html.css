@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        fieldset{
+            margin: auto;
+            height: 230px;
+            width: 65vw;
+        }
+        
+   
+       
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+   <fieldset>
+    <legend>Cadastro</legend>
+       
+       <form action="" method="get">
+
+           <p><label for="inome">Nome</label> <input type="text" name="nome" id="inome" required minlength="7" maxlength="20"  size="26"></p>
+
+           <p><label for="isobre">Sobrenome</label> <input type="text" name="sobre" id="isobre" required></p>
+
+           <p><label for="iemail">Email</label> <input type="email" name="email" id="iemail" size="26" placeholder="@" required></p>
+
+           <p><label for="ipass">Senha</label> <input type="password" name="pass" id="ipass"size="25" placeholder="password" required></p>
+
+           <p><input type="submit" value="Iniciar"> <input type="reset" value="Limpar"></p>
+       </form>
+   </fieldset>
+
+ 
+</body>
+</html>
