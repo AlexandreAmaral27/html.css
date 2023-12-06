@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" method="post">
+
+        <p><label for="iest">Pais</label> 
+           <select name="est" id="iest">
+            <option value="">--Escolha--</option>
+
+            <optgroup label="Africa">
+                <option>Angola</option>
+                <option>Africa do sul</option>
+                <option>Nigeria</option>
+            </optgroup>
+
+            <optgroup label="Europa">
+                <option>Portugal</option>
+                <option>Alemanha</option>
+                <option>Espanha</option>
+            </optgroup>
+
+           </select>
+        
+        </p>
+        <p>
+            <label for="iprof">Profissao</label>
+            <input type="text" name="prof" id="iprof" list="lisiprof">
+
+            <datalist id="lisiprof">
+                <option>Policia</option>
+                <option>Bombeiro</option>
+                <option>Enfermeiro</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imens">Menssagem</label><br>
+            <textarea name="mens" id="imens" cols="30" rows="10" placeholder="sua sms"></textarea>
+        </p>
+        <p><input type="submit" value="Enviar"> <input type="reset" value="Limpar"></p>
+        
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1> Teste de Formulario</h1>
+    <form action="" method="get">
+
+        <p><label for="ipais">Pais</label>
+            <select name="pais" id="ipais">
+                     
+                    <option value="">--Escolha--</option>
+                    <optgroup label="Africa">
+                    <option value="ang">Angola</option>
+                    <option value="">Africa do Sul</option>
+                    <option value="">Santome e prince</option>
+                    <option value="">Guine</option>
+                    <option value="">Moçambiqui</option>
+                    </optgroup>
+
+            </select>
+        </p> 
+
+        <p><label for="iprof">Profissao</label>
+            <input type="text" name="prof" id="iprof" list="lisprof">
+         <datalist id="lisprof">
+            <option>Professor</option>
+            <option>Policia</option>
+            <option>Medico</option>
+            <option>Bombeiro</option>
+            <option>Assassino</option>
+         </datalist>
+        </p>
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
